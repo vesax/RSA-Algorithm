@@ -11,7 +11,7 @@ prime_numbers = list(sympy.primerange(lowest_limit,highest_limit +1))
 print("Prime numbers within the range u chose: \n", prime_numbers)
 print("\n Alice, you can choose numbers from above")
 
-#input p and letting you know if that number is prime or not
+#when entering p, the code provides you information whether that number is prime or not
 prime_numberP = int(input("p = "))
 if prime_numberP > 1:
     for i in range(2,int(prime_numberP/2)+1):
@@ -26,7 +26,7 @@ else :
     print("This is not a prime number\n Try again by pressing enter")
     exit()
 
-#input q and letting you know if that number is prime or not
+#when entering q, the code provides you information whether that number is prime or not
 prime_numberQ = int(input("q = "))
 if prime_numberQ > 1:
     for i in range(2,int(prime_numberQ/2)+1):
@@ -79,7 +79,7 @@ prime_numbers = list(sympy.primerange(lowest_limit,highest_limit +1))
 print("Prime numbers within the range u chose: \n", prime_numbers)
 print("\n Bob, you can choose numbers from above to enter your prime number")
 
-#input p and letting you know if that number is prime or not
+#when entering p, the code provides you information whether that number is prime or not
 Pprime_number = int(input("p = "))
 if Pprime_number > 1:
     for i in range(2,int(Pprime_number/2)+1):
@@ -94,7 +94,7 @@ else :
     print("This is not a prime number\n Try again by pressing enter")
     exit()
 
-#input q and letting you know if that number is prime or not
+#when entering q, the code provides you information whether that number is prime or not
 Qprime_number = int(input("q = "))
 if Qprime_number > 1:
     for i in range(2,int(Qprime_number/2)+1):
